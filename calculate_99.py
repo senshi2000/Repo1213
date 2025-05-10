@@ -23,4 +23,7 @@ for j in range(10, 5,-1):
             print("Error: i or k is not defined")
         except TypeError:
             print("Error: i or k is not a number")
-                
+
+
+a = 100
+print(a)
