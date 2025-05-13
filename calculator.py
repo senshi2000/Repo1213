@@ -7,22 +7,18 @@ class Calculator:
     
     def add(self, a, b):
         self.add_result = int(a + b)
-        return self.add_result
     
     def subtract(self, a, b):
         self.sub_result = int(a - b)
-        return self.sub_result
     
     def multiply(self, a, b):
         self.mul_result = int(a * b)
-        return self.mul_result
     
     def divide(self, a, b):
         if b == 0:
             self.div_result = "Error: Division by zero"
-            return self.div_result
-        self.div_result = int(a // b)
-        return self.div_result
+        else:
+            self.div_result = int(a // b)
 
     def get_add_result(self):
         return self.add_result

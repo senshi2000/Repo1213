@@ -15,9 +15,10 @@ def main():
     
     # 計算結果を表示
     print(f"\n計算結果:")
-    results = calc.get_results()
-    for operation, result in results.items():
-        print(f"{operation}: {result}")
+    print(f"足し算: {calc.get_add_result()}")
+    print(f"引き算: {calc.get_subtract_result()}")
+    print(f"掛け算: {calc.get_multiply_result()}")
+    print(f"割り算: {calc.get_divide_result()}")
 
 if __name__ == "__main__":
     main()
